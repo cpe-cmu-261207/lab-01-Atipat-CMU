@@ -1,0 +1,58 @@
+h1 {
+  color: #383872 !important;
+  font-weight: bolder !important;
+}
+
+h3 {
+  color: #383872 !important;
+  font-weight: bolder !important;
+  margin-top: 90% !important;
+  margin-bottom: 90 !important;
+}
+
+.navbar {
+  background: #383872;
+  color: white;
+}
+
+.logo {
+  font-size: large;
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-box {
+  width: 50%;
+  height: 420px;
+  display: flex;
+}
+
+.hero-img {
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  margin-top: 150px;
+}
+
+.my-container {
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  justify-content: center;
+}
