@@ -24,23 +24,36 @@
   </head>
 
   <body>
-    <div class="navbar py-3">
-      <!-- large navbar -->
-      <div
-        class="d-none d-sm-flex mx-auto align-items-center"
-        style="max-width: 90%"
-      >
-        <span class="logo me-auto">Atipat</span>
-        <div class="menu gap-2">
-          <span>Home</span>
-          <span>Experience</span>
-          <span>Contact</span>
+    <div class="navbar-container">
+      <nav class="my-navbar navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <span class="navbar-brand" href="#">ATIPAT</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- small navbar -->
-      <div class="d-block d-sm-none mx-auto">
-        <span class="logo me-auto text-center">Atipat</span>
-      </div>
+      </nav>
     </div>
     <div class="hero">
       <div class="hero-box">

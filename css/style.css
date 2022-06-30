@@ -1,33 +1,42 @@
 h1 {
-  color: #383872 !important;
+  color: #1d3557 !important;
   font-weight: bolder !important;
 }
 
 h3 {
-  color: #383872 !important;
+  color: #1d3557 !important;
   font-weight: bolder !important;
-  margin-top: 90% !important;
-  margin-bottom: 90 !important;
+  margin-top: 90px !important;
+  margin-bottom: 90px !important;
 }
 
-.navbar {
-  background: #383872;
+.my-navbar .navbar-brand {
   color: white;
+}
+
+.my-navbar .navbar-brand:hover {
+  color: white;
+}
+
+nav .navbar-nav li a {
+  color: white !important;
+}
+
+.navbar-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  background: #1d3557;
 }
 
 .logo {
   font-size: large;
-  margin-left: auto;
   font-weight: bold;
-}
-
-.menu {
-  display: flex;
 }
 
 .hero {
   display: flex;
   flex-direction: row;
+  background-color: #a8b3c4;
 }
 
 .hero-box {
@@ -39,8 +48,8 @@ h3 {
 .hero-img {
   object-fit: cover;
   width: 90%;
-  border-top-left-radius: 30%;
-  border-bottom-left-radius: 30%;
+  border-top-left-radius: 20%;
+  border-bottom-left-radius: 20%;
 }
 
 .box-text {
@@ -52,7 +61,7 @@ h3 {
 
 .my-container {
   display: flex;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   justify-content: center;
 }
