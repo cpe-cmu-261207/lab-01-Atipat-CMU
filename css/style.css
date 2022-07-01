@@ -3,11 +3,13 @@ h1 {
   font-weight: bolder !important;
 }
 
-h3 {
+h2 {
   color: #1d3557 !important;
   font-weight: bolder !important;
-  margin-top: 90px !important;
-  margin-bottom: 90px !important;
+}
+
+p {
+  font-size: 18px;
 }
 
 .my-navbar .navbar-brand {
@@ -36,7 +38,7 @@ nav .navbar-nav li a {
 .hero {
   display: flex;
   flex-direction: row;
-  background-color: #a8b3c4;
+  background-color: #d8e0ec;
 }
 
 .hero-box {
@@ -56,12 +58,23 @@ nav .navbar-nav li a {
   display: flex;
   flex-direction: column;
   padding-left: 20%;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 .my-container {
   display: flex;
+  flex-direction: column;
   padding-left: 10%;
   padding-right: 10%;
-  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.center {
+  align-items: center;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 300px;
 }
