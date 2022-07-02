@@ -52,6 +52,12 @@ nav .navbar-nav li a {
   align-items: flex-start;
 }
 
+.my-row-colum {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 .list-column {
   display: flex;
   flex-direction: column;
@@ -150,6 +156,17 @@ nav .navbar-nav li a {
   .card {
     width: 100%;
   }
+  .personal-box {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .my-row-colum {
+    flex-direction: column;
+  }
 }
 
 .center {
@@ -173,4 +190,59 @@ nav .navbar-nav li a {
 .card-img-bottom {
   object-fit: cover;
   height: 300px;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  padding: 24px;
+  padding-left: 64px;
+  padding-right: 64px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contact-list-lable {
+  font-weight: bold;
+  flex: 1;
+}
+
+.contact-list-d {
+  flex: 4;
+}
+
+@media (max-width: 900px) {
+  .contact-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding: 20px;
+  }
+  .contact-list {
+    flex-direction: column;
+  }
+  .contact-list-lable {
+    font-weight: bold;
+    flex: 1;
+  }
+  .contact-list-d {
+    flex: 1;
+  }
+  .img-hidden {
+    display: none;
+  }
 }
