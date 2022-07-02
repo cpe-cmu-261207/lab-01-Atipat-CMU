@@ -8,6 +8,11 @@ h2 {
   font-weight: bolder !important;
 }
 
+h4 {
+  color: #1d3557 !important;
+  font-weight: bolder !important;
+}
+
 h5 {
   color: #1d3557 !important;
   font-weight: bolder !important;
@@ -41,9 +46,13 @@ nav .navbar-nav li a {
 }
 
 .hero {
+  background-color: #d8e0ec;
+}
+
+.my-row {
   display: flex;
   flex-direction: row;
-  background-color: #d8e0ec;
+  align-items: flex-start;
 }
 
 .hero-box {
@@ -55,8 +64,7 @@ nav .navbar-nav li a {
 .hero-img {
   object-fit: cover;
   width: 90%;
-  border-top-left-radius: 20%;
-  border-bottom-left-radius: 20%;
+  border-end-start-radius: 100px 100px;
 }
 
 .box-text {
@@ -73,6 +81,35 @@ nav .navbar-nav li a {
   padding-right: 10%;
   margin-top: 90px;
   margin-bottom: 90px;
+}
+
+.text-h {
+  font-weight: bold;
+}
+
+.personal-box {
+  display: flex;
+  flex-direction: column;
+  width: 36%;
+  padding: 20px;
+  padding-top: 36px;
+  align-items: center;
+  gap: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fill-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-profile {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
 }
 
 .my-cards {
@@ -107,6 +144,11 @@ nav .navbar-nav li a {
 }
 
 .card-img-top {
+  object-fit: cover;
+  height: 300px;
+}
+
+.card-img-bottom {
   object-fit: cover;
   height: 300px;
 }
