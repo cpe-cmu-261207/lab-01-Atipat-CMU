@@ -149,6 +149,7 @@ nav .navbar-nav li a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .my-skills span {
