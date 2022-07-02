@@ -145,6 +145,22 @@ nav .navbar-nav li a {
   border: none !important;
 }
 
+.my-skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.my-skills span {
+  font-weight: bold;
+  color: #1d3557;
+}
+
+.skill-icon {
+  width: 36px;
+  height: 36px;
+}
+
 .img-fluid {
   object-fit: cover;
   height: 100% !important;
