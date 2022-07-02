@@ -149,12 +149,18 @@ nav .navbar-nav li a {
   display: flex;
   flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .my-skills span {
   font-weight: bold;
   color: #1d3557;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .skill-icon {
